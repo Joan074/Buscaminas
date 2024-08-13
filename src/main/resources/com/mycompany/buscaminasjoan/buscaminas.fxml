@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="760.0" prefWidth="999.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.buscaminasjoan.BuscaminasController">
+   <top>
+      <GridPane prefHeight="89.0" prefWidth="440.0" BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <MenuBar prefHeight="33.0" prefWidth="440.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="Juego">
+                  <items>
+                    <MenuItem fx:id="botonReiniciar" mnemonicParsing="false" text="Reiniciar" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Ajustes">
+                  <items>
+                    <MenuItem fx:id="botonPersonalizado" mnemonicParsing="false" text="Personalizado" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Ayuda">
+                  <items>
+                    <MenuItem fx:id="botonComoJugar" mnemonicParsing="false" text="Como Jugar" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <ToolBar prefHeight="51.0" prefWidth="440.0" GridPane.rowIndex="1">
+              <items>
+                  <Button fx:id="botonRanking" mnemonicParsing="false" onAction="#abrirRanking" prefHeight="36.0" prefWidth="34.0">
+                     <graphic>
+                        <ImageView fx:id="imagenRanking" fitHeight="26.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../java/com/mycompany/buscaminasjoan/imagenes/ranking.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="info" mnemonicParsing="false" prefHeight="36.0" prefWidth="34.0">
+                     <graphic>
+                        <ImageView fx:id="imagenInfo" fitHeight="26.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../java/com/mycompany/buscaminasjoan/imagenes/info.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="exit" mnemonicParsing="false" prefHeight="36.0" prefWidth="34.0">
+                     <graphic>
+                        <ImageView fx:id="imagenExit" fitHeight="26.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../java/com/mycompany/buscaminasjoan/imagenes/exit.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+              </items>
+            </ToolBar>
+         </children>
+      </GridPane>
+   </top>
+   <bottom>
+      <Pane prefHeight="53.0" prefWidth="440.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="labelMine" layoutX="52.0" layoutY="18.0" prefHeight="18.0" prefWidth="121.0" text="Mines:" />
+            <Label fx:id="labelTime" layoutX="293.0" layoutY="18.0" prefHeight="17.0" prefWidth="131.0" text="Time: " />
+            <ComboBox fx:id="cboxDif" layoutX="728.0" layoutY="14.0" onAction="#mandarDif" prefWidth="150.0" promptText="Dificultad" />
+         </children>
+      </Pane>
+   </bottom>
+   <left>
+      <Pane prefHeight="371.0" prefWidth="0.0" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <Pane prefHeight="371.0" prefWidth="0.0" BorderPane.alignment="CENTER" />
+   </right>
+   <center>
+      
+   </center>
+   
+</BorderPane>

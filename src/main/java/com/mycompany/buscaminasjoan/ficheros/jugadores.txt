@@ -1,0 +1,6 @@
+joan;12:12;dificil;./src/main/java/com/mycompany/buscaminasjoan/imagenes/guts.jpeg
+pedro;00:27;facil;./src/main/java/com/mycompany/buscaminasjoan/imagenes/hinata.jpeg
+javier;02:26;intermedio;./src/main/java/com/mycompany/buscaminasjoan/imagenes/goku.png
+mario;02:28;intermedio;./src/main/java/com/mycompany/buscaminasjoan/imagenes/naruto.jpeg
+lucia;00:58;facil;./src/main/java/com/mycompany/buscaminasjoan/imagenes/faye.jpg
+elena;06:28;dificil;./src/main/java/com/mycompany/buscaminasjoan/imagenes/casca.jpeg
