@@ -1,4 +1,4 @@
-# Proyecto Final - Buscaminas
+# Proyecto Final 1DAM - Buscaminas
 
 **Descripción:**  
 Este es el proyecto final de mi primer año de **Desarrollo de Aplicaciones Multiplataforma (DAM)**. Se trata de una versión del clásico juego **Buscaminas**, desarrollado en Java utilizando **JavaFX** para la interfaz gráfica. 
@@ -24,5 +24,5 @@ Para ejecutar el proyecto, necesitas:
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tuusuario/ProyectoBuscaminas.git
+   git clone https://github.com/Joan074/Buscaminas.git
 
