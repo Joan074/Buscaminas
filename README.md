@@ -20,7 +20,7 @@ Para ejecutar el proyecto, necesitas:
 - **Java 8** o superior.
 - **JavaFX** (si usas JDK 11 o superior, JavaFX puede estar ya integrado).
 
-## Instalación
+## Instalación 
 
 1. Clona el repositorio:
    ```bash
